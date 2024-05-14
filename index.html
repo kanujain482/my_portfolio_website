@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/59f9169153.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#techstack">TechStack</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onlclick="closemenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi,I'm <span>Kanu</span> Jain From India</h1>
+
+            </div>
+        </div>
+    </div>
+    <!---------------------------about---------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/guy.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Kanu Jain, a dynamic and ambitious individual who recently graduated with a Bachelor of
+                        Engineering degree in
+                        Information Technology from Pune University. As a fresher in the industry, I am keen on pursuing
+                        a career in the Java
+                        Full Stack domain. With a solid foundation in software development, database management, and web
+                        technologies acquired
+                        through academic projects and coursework, I am enthusiastic about applying my skills to
+                        real-world challenges in
+                        software development projects.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2019-2023</span><br>D.Y.Patil College Of Engineering,Akurdi</li>
+                            <li><span>2018-2019</span><br>12th from SpringWood School</li>
+                            <li><span>2016-2017</span><br>10th from Indus World School</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!------------services----------->
+
+    <div id="techstack">
+        <div class="container">
+            <h1 class="sub-title">Tech-Stack I Know</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-c"></i>
+                    <h2>C/C++</h2>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java/JavaEE</h2>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML</h2>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3"></i>
+                    <h2>CSS</h2>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>JavaScript</h2>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>MYSQL</h2>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>SpringBoot</h2>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>Hibernate</h2>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <!---------------------------- portfolio ------------------------------>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/book.png">
+                    <div class="layer">
+                        <h3>Online Book Management System</h3>
+                        <p>I designed and implemented a Book Management System
+                            enabling easy handling of a library's book inventory through
+                            features like adding, viewing, updating, and removing books. The
+                            system includes a user-friendly interface with search and filtering
+                            capabilities, streamlining library tasks and ensuring precise data
+                            management.</p>
+                        <a href="https://github.com/kanujain482"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>E-Commerce Site</h3>
+                        <p>Created an e-commerce app with Spring Boot, providing Google
+                            and regular sign-in choices. Users can browse, buy, and manage
+                            items, while admins can control products securely. Enhanced
+                            shopping and management with an easy, modern interface,
+                            boosting user experience and security.</p>
+                        <a href="https://github.com/kanujain482"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/voting.png">
+                    <div class="layer">
+                        <h3>Online Electronic Voting Machine(EVM)</h3>
+                        <p>Developed a secure online electronic voting system using Spring Boot, enabling voters to cast
+                            their vote only once per
+                            party and ensuring the integrity of the election process. Implemented voter authentication
+                            and vote encryption to guarantee
+                            secure and private voting. Designed an exclusive interface for the e-commissioner to access
+                            and manage election results.
+                            Streamlined the voting process while enhancing election security and transparency. Adhered
+                            to data privacy regulations
+                            and election integrity standards.</p>
+                        <a href="https://github.com/kanujain482"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="https://github.com/kanujain482" class="btn">See More</a>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!--------------------contact-------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> kanujain28@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +916266644823</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/kanu-jain/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/kanujain482/?igsh=ODQ4bmRoZ252YmFw"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/kanujain482"><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                    <a href="images/KanuJain.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder=" Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">
+
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwxU10es7QtKOyQETnWGIUOfgq_TRYfY0utCMKIlj3o76sbfs3JKpVksVdxRddiiaFt/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Susccessfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
